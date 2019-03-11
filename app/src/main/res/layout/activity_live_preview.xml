@@ -54,13 +54,6 @@
           android:textOn=""
           android:checked="true" />
 
-      <Button
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Capture"
-          android:layout_gravity="center"
-          android:id="@+id/capture"
-          />
   </FrameLayout>
 
 </RelativeLayout>
