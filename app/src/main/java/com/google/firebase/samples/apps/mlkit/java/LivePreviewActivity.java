@@ -89,14 +89,7 @@ public final class LivePreviewActivity extends AppCompatActivity
     } else {
       getRuntimePermissions();
     }
-      capture =  findViewById(R.id.capture);
-      capture.setOnClickListener(new View.OnClickListener() {
-          @Override
-          public void onClick(View v) {
-              cameraSource.takePic();
 
-          }
-      });
   }
 
 
